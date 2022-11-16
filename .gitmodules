@@ -7,3 +7,6 @@
 	url = git@github.com:cryptobiu/libscapi.git
     branch = b77816a8ad
     ignore = dirty
+[submodule "third_party/-Pivot-SPDZXXR"]
+	path = third_party/-Pivot-SPDZXXR
+	url = git@github.com:hhxxrhh/-Pivot-SPDZXXR.git
