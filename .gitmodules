@@ -11,6 +11,3 @@
 	url = git@github.com:cryptobiu/libscapi.git
     branch = b77816a8ad
     ignore = dirty
-[submodule "libhcs"]
-	path = libhcs
-	url = git@github.com:lemonviv/libhcs.git
