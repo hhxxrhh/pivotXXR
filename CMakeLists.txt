@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Pivot)
+project(PivotXXR)
 set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fopenmp -lboost_program_options")
@@ -61,8 +61,8 @@ include_directories(${SCAPI_HOME}/include
 
 link_directories(/usr/ssl/lib ${SCAPI_HOME}/install/lib ${SPDZ_HOME}/local/lib)
 
-add_executable(Pivot ${SOURCE_FILES})
-target_link_libraries(Pivot
+add_executable(PivotXXR ${SOURCE_FILES})
+target_link_libraries(PivotXXR
         /usr/lib/x86_64-linux-gnu/libgmp.so
         /usr/lib/x86_64-linux-gnu/libgmpxx.so
         ${HCS_HOME}/lib/libhcs.so
