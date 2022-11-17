@@ -44,7 +44,7 @@ set(SOURCE_FILES main.cpp
         src/models/gbdt.h
         src/models/gbdt.cpp)
 
-set(SPDZ_HOME "${CMAKE_CURRENT_SOURCE_DIR}/third_party/Pivot-SPDZ/")
+set(SPDZ_HOME "${CMAKE_CURRENT_SOURCE_DIR}/third_party/-Pivot-SPDZXXR/")
 set(SCAPI_HOME "${CMAKE_CURRENT_SOURCE_DIR}/third_party/libscapi/")
 set(HCS_HOME "${CMAKE_CURRENT_SOURCE_DIR}/third_party/libhcs/")
 
